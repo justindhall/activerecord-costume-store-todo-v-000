@@ -1,4 +1,4 @@
-class CreateCandies < ActiveRecord::Migration[5.1]
+class CreateCostumes < ActiveRecord::Migration[5.1]
   def change
     create_table :candies do |t|
       t.string :name
